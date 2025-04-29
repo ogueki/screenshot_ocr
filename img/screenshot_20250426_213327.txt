@@ -1,0 +1,41 @@
+。 @ PrintscreenocR 自 動 化 X
+
+そ を う G 包 chatgptcomyc/⑥⑧0cc②b②-②③⑧0-⑧00⑥-⑧a⑥③-dca②e④e⑥③①①② Q 委 ロ | #8 @
+oN 。
+@ Q ご ど ChatGPT 03 v ` ム 共 有 す る ル テ @
+① 部 ChatGpt 國
+' Sora {EWA
+⑧⑧ GPT を 探 す 1. ocReui-py を 保 存 ー 依 存 ラ イ ブ ラ リ を pip instal① .
+・ ラ イ ブ ラ リ ②⑦④ ②. python ocr_gui.py で 起 動
+
+3. ウ ィ イ ブ ド ウ で モ ー ド を 選 び ` ホ ッ ト キ ー 登 録 | を 押 す
+
+4. あ と は Print Screen を 押 す た び に img\*.png + img\*.txt が 生 成 さ れ ま す
+モ ー メ を め り 荊 え た り 婚 合 び ウ ァ ィ ン ウ で 邉 び 和 す だ
+
+5. 終 了 は GUI の ` 終 了 | か ctriec ( タ ー ミ ナ ル )
+
+ブ ロ : バ ク ト
+GQ ブ ロ ジェ エ ク ト を 新 規 作 成
+
+今 日
+ス ク リ ー ン シ ョ ッ ト の 撮 り 方
+実 装 ポ イ ン ト
+
+通 去 ⑦ 日 間 ッ Gui と OCR を 分 離 - capture_and_ocr() は モ ー ド だ け 引 数 で 受 け る 純 粋 関 数
+
+ラ ー ミ の コ ッ
+キ ャ ラ ク タ ー 設 定 の コ ツ ・ ス レ ッ ド で 実 行 Vision 呼 び 出 し は 数 秒 か か る の で GUI が 固 ま ら な い よ う threading-Thread
+
+ー ド 刹 E
+TPA HEE ・ ホ ッ ト キ ー 解 除 - 終 了 時 keyboard.unhook_all_hotkeys() で 後 始 末
+紫 色 の 髪 変 更 方 法
+髪 色 変 更 手 順 v 0
+ロ ゴ デ ザ イ ン 依 頼 質 間 し て み ま し ょ う _
+コ コ ア ち ゃ ん の 特 徴 |
+
+」 し 十 ① 検 索 @ Deep Research ①⑧ 画 像 を 作 成 す る one ら © `
+`@ : ブ ラ ン を 表 示 す る \ ノ
+
+顆 初 限 ア ク セ ス チ ム 機 能 な ど ChatGPT の 回 答 は 必 ず し も 正 し い と は 限 り ま せ ん 。 重 要 な 情 報 は 確 認 す る よ う に し て く だ き い 。 ;
+

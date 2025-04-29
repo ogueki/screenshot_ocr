@@ -1,0 +1,20 @@
+表示された画像から以下の文字を抽出します。
+
+```
+Billing
+
+Pay as you go
+$4.99
+
+Add funds to my account balance  Cancel plan
+
+Enable auto-recharge
+
+Payment methods
+Billing history
+Preferences
+Usage limits
+
+Pricing
+Billing overview and FAQs
+```

@@ -1,0 +1,82 @@
+ベ ク
+
+〕 フ イ ル ( 編 集 ( 選 択 ) 表 示 ( の 移 動 G ‥ ③ PD 未 設 定 ( ワ - ク ス ペ ー
+
+@ chatcpT エ ク ス ロ ー ラ ー ー ® saverpy ® config.py る mainpy ® gui apppy ② る ocrutilspy ③ X
+
+~ ン 未 設 定 ( ワ - ク ス ペ ー ス ) ス ク シ ョ text 保 存 > & ocr utispy > 合 ocr_normal
+い 、 Sora
+
+ン ス ク シ ョ text 保 存 Aa ab, 語
+# Tesseract の 設 定 > MAX _IMAGE SIZE ab, 詞 ⑰④ 件
+
+pytesseract-pytesseract tesseract_cmd = TESSERACT_CMD
+import os
+
+ーPycache_
+
+檸 テ リ
+
+⑧⑧ GPT を 探 す
+
+img
+
+>
+>
+® config.py os.environ["TESSDATA_PREFIX"] = TESSDATA_PREFIX
+
+®@ gui_app.py
+
+る main.py ③ def capture_and_ocr(img: Image.Image, mode: str) -> str:
+® ocrutils.py if mode == "high" and not os..getenv(“OPENAI_API_KEY"): 閻
+る raise RuntimeError(“openAI API キ ー が 設 定 さ れ て い な い た め 、 高 機 能 モ ー ド で き ま せ ん り の
+
+return ocr_high(img) if mode == “high” else ocr_normal(img)
+
+saver.py
+
+ocr_normal(img: Image.Image) -> str:
+
+gray = img.convert("L")
+
+contrast = ImageEnhance.Contrast(gray) enhョnce匯0NTRAST_FACTOR圓
+return pytesseract-image_to_string(contrast。 ①ang=“jpn+eng“)
+
+def ocr_high(img: Image.Image) -> str:
+
+ok 2 EO
+
+5 田 カ ー デ バ ッ グ コ ン リ ー ル タ ミ ナ カ ル ポ ー ト EJ python 十
+
+PS C:\users\shiny\oneDriveu デ ス ク ト ッ ゥ プ \ ス ク シ ョ text 保 存 > python main.py
+
+PS C:\users\shiny\oneDriveu デ ス ク ト ッ ゥ プ \ ス ク シ ョ text 保 存 > python main.py
+
+Traceback (most recent call last):
+
+ス ク リ ー ン シ ョ ッ ト の File “c:Nusers\shiny\oneDriveu デ ス ク ト ッ ゥ プ \ ス ク シ ョ text 保 存 \main.py“。 line 10, in <module>
+app = OCRGui(api_key_available=api_key_available)
+
+キ ャ ラ ク タ ー 設 定 の File “C:Nusers\shiny\oneDriveu デ ス ク ト ッ ゥ プ \ ス ク シ ョ text 保 存 Ngui_app-py“。 line 49, in __init__
+ttk.Button(frm_buttons, text=“ 終 了 ` command=self.quit_all).pack(side="center") 、 woes ⑧ . し 、
+
+モ ー ド 利 用 回 数 確 File "C:\Users\shiny\AppData\Local \Programs\Python\Python310\lib\tkinter\__init__.py", lin © お 使 い の シ ス テ ム に は Windows Subsystem for Linux (WSL) が イ ン 器 〆
+
+ー self .tk.call( ス ト ー ル さ れ て い ま す 。 C の ソ フ ト ウ ェ ア 用 の お す す め 拡 張 機 能 `WSL 拡
+⑨ _tkinter.TclError: bad side “center“: must be top, bottom, left, or right 張 機 能 提 供 元 : Microsoft を イ ン ス ト ー ル し ま す か ?
+PS C:\users\shiny\oneDriveu デ ス ク ト ッ ゥ プ \ ス ク シ ョ text 保 存 > python main.py
+遇 去 ③0 日 間 > ッ テ ゥ ト ラ イ ン PS C:\Users\shiny\OneDrive\7 2 ク ト ッ プ \ ス ク 亨 ヨ text 保 存 > python main.py イ シ ス ト - ル 推 奨 事 項 の 表 示
+灘 PS C:\users\shiny\oneDrivu デ ス ク ト ッ ゥ プ \ ス ク シ ョ text 保 存 > python main.py
+> タ イ ム ラ イ ッ
+
+@ プ ラ ン を 表 一 電 綱 睦 S 行 ②①、 列 ⑥⑧ ス ペ ー ズ ④ UTF⑧ CRLF () Python 砥 ③①③① ⑥④-bit @ Go lve で
+
+PrintScreen OCR
+
+ChatGPT 0
+
+@ n
+
+。 22:48
+Le c 0 “ 2) 写 ⑨0 & 2025/04/29
+

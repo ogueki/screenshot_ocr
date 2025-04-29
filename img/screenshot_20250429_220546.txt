@@ -1,0 +1,25 @@
+```
+saver.py
+1
+ocr_utils.py
+3
+main.py
+
+import os
+import sys
+from gui_app import OCRGui
+
+if __name__ == "__main__":
+    # APIキーの有無を確認（エラー表示はせず、情報として保持）
+    api_key_available = bool(os.getenv("OPENAI_API_KEY"))
+
+    # APIキーの有無をGUIに伝えてアプリを起動
+    app = OCRGui(api_key_available=api_key_available)
+    app.mainloop()
+
+PS C:\Users\shiny\OneDrive\デスクトップ\スクショ\text保存> python main.py
+
+お使いのシステムには Windows Subsystem for Linux (WSL) がインストールされています。このソフトウェア用のおすすめ拡張機能 "WSL" 拡張機能 提供元: Microsoft をインストールしますか?
+
+インストール 拡張機能の表示
+```

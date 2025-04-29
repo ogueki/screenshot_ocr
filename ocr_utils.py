@@ -10,11 +10,6 @@ pytesseract.pytesseract.tesseract_cmd = TESSERACT_CMD
 import os
 os.environ["TESSDATA_PREFIX"] = TESSDATA_PREFIX
 
-def capture_and_ocr(img: Image.Image, mode: str) -> str:
-    if mode == "high" and not os.getenv("OPENAI_API_KEY"):
-        raise RuntimeError("OpenAI APIキーが設定されていないため、高機能モードは使用できません")
-    return ocr_high(img) if mode == "high" else ocr_normal(img)
-
 # 通常モード
 def ocr_normal(img: Image.Image) -> str:
     gray = img.convert("L")
@@ -48,3 +43,9 @@ def ocr_high(img: Image.Image) -> str:
     if choice.finish_reason == "content_filter":
         raise RuntimeError("OpenAI Vision refused to process this image (content_filter)")
     return choice.message.content.strip()
+
+
+def capture_and_ocr(img: Image.Image, mode: str) -> str:
+    if mode == "high" and not os.getenv("OPENAI_API_KEY"):
+        raise RuntimeError("OpenAI APIキーが設定されていないため、高機能モードは使用できません")
+    return ocr_high(img) if mode == "high" else ocr_normal(img)

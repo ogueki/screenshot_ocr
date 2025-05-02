@@ -38,6 +38,11 @@ pip install -r requirements.txt
 
 C:\Program Files\Tesseract-OCR\tesseract.exe
 
+日本語の翻訳を行いたい場合、日本語の言語データをインストールしておく必要があります。
+以下のリンクから`jpn.traineddata`をダウンロードし、`C:\Program Files\Tesseract-OCR\tessdata`に入れてください。
+
+https://github.com/tesseract-ocr/tessdata
+
 # 使い方
 main.py を実行
 
